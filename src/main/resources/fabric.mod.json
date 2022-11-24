@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "removetooexpensive",
+  "version": "${version}",
+  "name": "RemoveTooExpensive",
+  "description": "Removes the \"Too Expensive!\" check from Anvils.",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {
+    "repo": "https://github.com/allinkdev/RemoveTooExpensive"
+  },
+  "license": "unlicense",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.allink.removetooexpensive.RemoveTooExpensive"]
+  },
+  "mixins": [
+    "RemoveTooExpensive.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": "1.19.2"
+  }
+}
